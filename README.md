@@ -19,4 +19,4 @@ Our Election Night Margin model is composed of two parts to account for the two 
 1. intra-county election prediction model - a regression model that predicts final county results based on early returns
 2. inter-county election prediction model - a mixed-effects model that predicts final, state-wide results for all counties based only on counties that have reported.
 
-In [part one](./Predicting_Election_Night_Margin_1.ipynb) we build the intra-county election prediction model, and in [part two](./Predicting_Election_Night_Margin_2.ipynb) we continue our work and construct the inter-county election model. We combine the 2 parts of our model in [part three](./Predicting_Election_Night_Margin_3.ipynb) to build our comprehensive election model. 
+In [part one](./Predicting_Election_Night_Margin_1.ipynb) we build the intra-county election prediction model, and in [part two](./Predicting_Election_Night_Margin_2.ipynb) we continue our work and construct the inter-county election model. We combine both the intra-county and inter-county models in [part three](./Predicting_Election_Night_Margin_3.ipynb) to build our comprehensive election model. 
